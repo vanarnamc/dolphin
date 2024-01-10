@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Positioning Example</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+    <style>
+        .fixed-box {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            text-align: center;
+            line-height: 100px;
+        }
+
+        .absolute-box {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 100px;
+            height: 100px;
+            background-color: lightcoral;
+            text-align: center;
+            line-height: 100px;
+        }
+
+        body {
+            height: 1500px; /* Ensures the page is scrollable */
+            font-family: 'Lemon', serif;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="fixed-box">Fixed</div>
+    <div class="absolute-box">Absolute</div>
+</body>
+</html>
